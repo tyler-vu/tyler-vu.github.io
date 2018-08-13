@@ -21,7 +21,7 @@
 
 			<!-- Logo -->
 			<div id="logo">
-				<span class="image avatar48"><img src="images/about.jpeg" alt="" /></span>
+			
 				<h1 id="title">Tyler Vu</h1>
 				<p>PhD Student</p>
 			</div>
@@ -29,8 +29,8 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="#top" id="top-link"><span class="icon fa-home">Home</span></a></li>
-					<li><a href="#about" id="about-link"><span class="icon fa-user">About</span></a></li>
+               <!-- <li><a href="#top" id="top-link"><span class="icon fa-home">Home</span></a></li> -->					
+ 					<li><a href="#about" id="about-link"><span class="icon fa-user">About</span></a></li>
 					<li><a href="#cv" id="cv-link"><span class="icon fa-newspaper-o">CV</span></a></li>
 					<li><a href="#research" id="contact-link"><span class="icon fa-book">Research</span></a></li>
 				</ul>
@@ -72,13 +72,13 @@
 					<h2>About Me</h2>
 				</header>
 				<a href="#" class="image left"><img src="images/about.jpeg" alt="" /></a>
-
+				<div class="left">
 				<p>I am an incoming Biostatistics PhD student at the University of California, San Diego. I received my B.A. in Applied Mathematics from California State University, Fullerton. Currently, I am a research assistant at the Harvard T.H.
 				</p>
 				<p> Chan School of Public Health under the supervision of Dr. Victor De Gruttola. Recently, I was a data analyst intern at the Southern California Coastal Water Research Project and a participant in the 2017 Summer Program in Biostatistics and Computational
 					Biology at the Harvard T.H. Chan School of Public Health where I worked under the supervision of Dr. Sherri Rose. During my time at CSU – Fullerton, I participated in numerous research projects involving feature level fusion, financial mathematics
 					and environmental statistics.</p>
-
+				</div>
 			</div>
 		</section>
 		<!-- About Me -->
@@ -99,26 +99,27 @@
 				<header>
 					<h2>Research</h2>
 				</header>
+				<div class="left">
 				<h4>Multimodal Biometrics for User Authentication on Mobile Devices</h4>
-				<p>Advisor: Mikhail Gofman, PhD</p>
+				<strong>Advisor: Mikhail Gofman, PhD</strong>
 				<p>Generally, modern mobile devices identify users based on a single biometric such as face, fingerprint or voice. Prior works have shown that a greater identification accuracy can be obtained by implementing feature-level fusion on multiple biometrics.
 					We propose a novel feature-level fusion approach for combining histogram-oriented gradients features from the face with mel-frequency cepstral coefficient features from the voice. The classifiers we consider are KNN, LDA, QDA, RF and SVM. We find
 					that for all classifiers, the multimodal approach significantly outperforms the unimodal face and voice approaches while taking 0.0038 seconds to identify a user on a Samsung Galaxy S7 phone. </p>
 
-				<h1>Assessing Spatial and Temporal Variances of the Toxicity Levels of the Southern California Bight with Linear Mixed Models</h1>
-				<p>Advisor: Laura Smith, PhD</p>
+				<h4>Assessing Spatial and Temporal Variances of the Toxicity Levels of the Southern California Bight with Linear Mixed Models</h4>
+				<strong>Advisor: Laura Smith, PhD</strong>
 				<p>The Southern California Coastal Water Research Project (SCCWRP) implements a regional monitoring program for the Southern California Bight (SCB). Data collected from sampled points of interest are used by SCCWRP to assess the toxicity levels of the
 					SCB. In the past, SCCWRP used an equal number of new and previously visited sites for sampling. The decision of the ratio of new sites versus previously visited sites is of importance to SCCWRP. Using previously collected data, we use mixed-effect
 					models to determine spatial and temporal variances of toxicity and abundance of metals. We have that the spatial variances exceeds the temporal variances for both variables. We conclude that the ratio of new sites and previously visited sites be
 					adjusted in favor of more new sites for a better assessment of the SCB.</p>
 
-				<h1>Risk Parity Control Portfolio Optimization with l1 Regularization using Split Bregman</h1>
-				<p>Advisor: Laura Smith, PhD</p>
+				<h4>Risk Parity Control Portfolio Optimization with l1 Regularization using Split Bregman</h4>
+				<strong>Advisor: Laura Smith, PhD</strong>
 				<p>Often, portfolio optimization methods result in a portfolio divided among many assets, which is not ideal for transaction costs. Therefore, some existing methods use the l_o norm in the objective function to promote sparse solutions. Using the l_o
 					norm results in a nonconvex objective function, often requiring complex methods to solve. We adapt the objective function from Feng and Palomar to include an l_1 norm and use Split Bregman method to obtain the optimal and spare solution. We find
 					that our proposed model produces sparse results with a lower volatility in comparison to various methods including the Feng-Palomar model while obtaining a significantly faster run-time than the Feng-Palomar model, especially when consider a large
 					number of assets.</p>
-
+			</div>
 
 
 				<!-- Footer -->
